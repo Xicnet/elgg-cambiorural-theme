@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<plugin_manifest>
-        <field key="author" value="XICnet.com" />
-        <field key="version" value="1.7" />
-        <field key="description" value="Cambio Rural Theme" />
-        <field key="website" value="http://cambiorural.xicnet.com/" />
-        <field key="copyright" value="(C) XICnet.com 2012" />
-        <field key="licence" value="GNU Affero General Public License version 3 or later" />
-        <field key="elgg_version" value="2010030101" />
+<plugin_manifest xmlns="http://www.elgg.org/plugin_manifest/1.8">
+        <name>Cambio Rural Theme</name>
+        <author>XICnet.com</author>
+        <version>0.1.0</version>
+        <category>xicnet</category>
+        <category>theme</category>
+        <blurb>Theme plugin for Elgg 1.8</blurb>
+        <description>Provide a custom theme.</description>
+        <website>http://cambiorural.xicnet.com</website>
+        <copyright>See COPYRIGHT.txt</copyright>
+        <license>GNU Affero General Public License version 3 or later</license>
+        <requires>
+                <type>elgg_release</type>
+                <version>1.8</version>
+        </requires>
+        <activate_on_install>true</activate_on_install>
 </plugin_manifest>
