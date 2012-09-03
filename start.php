@@ -24,7 +24,7 @@ function cambiorural_theme_index_page($hook, $value, $params) {
 		return $value;
 	}
 
-	if (isloggedin()) { return FALSE; }
+	if (elgg_is_logged_in()) { return FALSE; }
 
 	global $CONFIG;
 
