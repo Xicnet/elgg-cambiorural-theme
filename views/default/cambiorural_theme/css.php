@@ -19,6 +19,10 @@ body {
     background: rgba(240, 255, 255, 0.85);
 }
 
+.elgg-layout-error {
+    margin-top: 0;
+}
+
 .elgg-page-header {
     background: rgba(240, 255, 255, 0.15);
 }
