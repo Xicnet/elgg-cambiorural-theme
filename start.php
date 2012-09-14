@@ -3,7 +3,7 @@
  * Elgg Theme for Cambiorural
  */
 
-register_elgg_event_handler('init', 'system', 'cambiorural_theme_init');
+elgg_register_event_handler('init', 'system', 'cambiorural_theme_init');
 
 function cambiorural_theme_init() {
 	// Extend CSS
