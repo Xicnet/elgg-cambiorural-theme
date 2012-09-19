@@ -14,6 +14,9 @@ body {
 	background-size: cover;
 }
 
+.elgg-ajax-loader {
+    background-color: transparent;
+}
 
 .elgg-page-body .elgg-layout {
     background: rgba(240, 255, 255, 0.85);
