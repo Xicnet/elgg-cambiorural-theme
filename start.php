@@ -15,6 +15,9 @@ function cambiorural_theme_init() {
     // Page Handler
     elgg_register_page_handler('cambiorural_theme', 'cambiorural_theme_page_handler');
 
+    // Force locale globally
+    setlocale(LC_ALL, 'es_AR.UTF-8');
+
     // See views for more
 }
 
