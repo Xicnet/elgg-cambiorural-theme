@@ -2,6 +2,11 @@
 /**
  * Cambio Rural Theme
  */
+
+function azure($transparency = 1.00) {
+	return "rgba(240, 255, 255, $transparency)";
+}
+
 ?>
 /**
  * Cambio Rural Theme
@@ -19,7 +24,7 @@ body {
 }
 
 .elgg-page-body .elgg-layout {
-    background: rgba(240, 255, 255, 0.85);
+    background: <?php echo azure(0.85); ?>;
 }
 
 .elgg-layout-error {
@@ -27,7 +32,7 @@ body {
 }
 
 .elgg-page-header {
-    background: rgba(240, 255, 255, 0.15);
+    background: <?php echo azure(0.15); ?>;
 }
 
 .elgg-page-header h1 {
@@ -35,7 +40,7 @@ body {
 }
 
 .elgg-search.elgg-search-header fieldset input.search-input {
-    background-color: rgba(240,255,255,0.25);
+    background-color: <?php azure(0.25); ?>;
 	border-color: azure;
     color: rgba(0,0,0,0,25);
 }
@@ -44,7 +49,7 @@ body {
     text-shadow: none;
 }
 .elgg-menu-site > li.elgg-state-selected > a {
-    background-color: rgba(240,255,255,0.85);
+    background-color: <?php echo azure(0.85); ?>;
     text-shadow: none;
 }
 
@@ -55,11 +60,11 @@ body {
 
 .elgg-menu-site > li > ul {
     display: none;
-    background-color: rgba(240, 255, 255, 0.85);
+    background-color: <?php echo azure(0.85); ?>;
 }
 
 .elgg-menu-site-default > li:hover > a {
-    background-color: rgba(240, 255, 255, 0.85);
+    background-color: <?php echo azure(0.85); ?>;
     color: rgba(0,0,0,0.85);
 }
 
@@ -84,13 +89,13 @@ color: azure;
 }
 
 .elgg-menu-filter-default,
-	 .elgg-menu-filter-default > li, 
+	 .elgg-menu-filter-default > li,
 	 .elgg-menu-filter > .elgg-state-selected
 {
 	border-color: rgba(0, 0, 0, 1);
 }
 
-.elgg-menu-filter-default > li > a, 
+.elgg-menu-filter-default > li > a,
 	 .elgg-menu-filter > .elgg-state-selected > a
 {
     background-color: none;
@@ -98,7 +103,7 @@ color: azure;
 
 /* stick to the page, and use that space inside */
 .elgg-page-footer .elgg-menu-footer.elgg-menu-hz {
-    background-color: rgba(240, 255, 255, 0.85);
+    background-color: <?php echo azure(0.85); ?>;
 	margin-top: -5px;
 	padding-top: 4px;
 	padding-left: 3px;
@@ -130,3 +135,29 @@ li.elgg-menu-item-report-this > a {
 	vertical-align: top;
 }
 
+.elgg-module-info > .elgg-head,
+	.groups-profile > .elgg-image,
+	.groups-profile .groups-stats,
+    .groups-profile-fields .odd {
+background: <?php echo azure(0.85); ?>;
+ }
+
+.groups-profile-fields .even {
+background: <?php echo azure(0.45); ?>;
+ }
+
+.group-profile-fields code,
+	.group-profile-fields pre {
+background: transparent;
+}
+
+.elgg-menu-owner-block li a,
+	.elgg-menu-page li a {
+    background-color: <?php echo azure(0.5); ?>;
+}
+.elgg-menu-owner-block li:hover a,
+	.elgg-menu-page li:hover a {
+    background-color: <?php echo azure(1); ?>;
+color: black;
+	font-weight: bold;
+}
