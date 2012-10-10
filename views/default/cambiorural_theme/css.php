@@ -12,11 +12,15 @@ function azure($transparency = 1.00) {
  * Cambio Rural Theme
  */
 
-body {
+body.cambiorural {
     background: azure url(/mod/cambiorural_theme/graphics/bg.jpg) 0px 0px fixed no-repeat;
 	-moz-background-size: auto 100%;
 	-webkit-background-size: auto 100%;
 	background-size: cover;
+}
+
+body {
+    background-color: <?php azure(85); ?>;
 }
 
 .elgg-ajax-loader {
