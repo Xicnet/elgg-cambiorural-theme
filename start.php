@@ -41,6 +41,6 @@ function cambiorural_theme_handle_favicon() {
 		header('Content-Type: image/x-icon');
 		header('Content-Length: ' . filesize($favicon));
 		readfile($favicon);
-		exit;
+		return TRUE;
 	}
 }
