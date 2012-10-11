@@ -27,7 +27,9 @@ function cambiorural_theme_page_handler($page) {
 
 	switch ($page[0]) {
 	case 'favicon':
-		cambiorural_theme_handle_favicon();
+		if (cambiorural_theme_handle_favicon()) {
+			return TRUE;
+		};
 		break;
 	default:
 		return FALSE;
