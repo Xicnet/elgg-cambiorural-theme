@@ -20,7 +20,7 @@ body.cambiorural {
 }
 
 body {
-    background-color: <?php azure(85); ?>;
+    background-color: #4690D6;
 }
 
 .elgg-ajax-loader {
