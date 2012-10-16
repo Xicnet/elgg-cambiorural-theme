@@ -15,6 +15,9 @@ function cambiorural_theme_init() {
     // Page Handler
     elgg_register_page_handler('cambiorural_theme', 'cambiorural_theme_page_handler');
 
+   	// Ensure favicon is a public page
+	elgg_register_plugin_hook_handler('public_pages', 'walled_garden', 'cambiorural_theme_public_pages');
+
     // Force locale globally
     setlocale(LC_ALL, 'es_AR.UTF-8');
 
@@ -46,3 +49,17 @@ function cambiorural_theme_handle_favicon() {
 		return TRUE;
 	}
 }
+
+
+function cambiorural_theme_public_pages($hook, $type, $returnvalue, $params) {
+
+	if (!is_array($returnvalue)) {
+		$returnvalue = array($returnvalue);
+	}
+	$returnvalue[] = 'cambiorural_theme/favicon';
+
+	return $returnvalue;
+
+}
+
+

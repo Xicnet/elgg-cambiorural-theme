@@ -3,7 +3,7 @@
  * Cambio Rural Theme
  */
 
-function azure($transparency = 1.00) {
+function azure($transparency = "1.00") {
 	return "rgba(240, 255, 255, $transparency)";
 }
 
@@ -28,7 +28,7 @@ body {
 }
 
 .elgg-page-body .elgg-layout {
-    background: <?php echo azure(0.85); ?>;
+    background: <?php echo azure("0.85"); ?>;
 }
 
 .elgg-layout-error {
@@ -36,7 +36,7 @@ body {
 }
 
 .elgg-page-header {
-    background: <?php echo azure(0.15); ?>;
+    background: <?php echo azure("0.15"); ?>;
 }
 
 .elgg-page-header h1 {
@@ -44,7 +44,7 @@ body {
 }
 
 .elgg-search.elgg-search-header fieldset input.search-input {
-    background-color: <?php azure(0.25); ?>;
+    background-color: <?php azure("0.25"); ?>;
 	border-color: azure;
     color: rgba(0,0,0,0,25);
 }
@@ -53,7 +53,7 @@ body {
     text-shadow: none;
 }
 .elgg-menu-site > li.elgg-state-selected > a {
-    background-color: <?php echo azure(0.85); ?>;
+    background-color: <?php echo azure("0.85"); ?>;
     text-shadow: none;
 }
 
@@ -64,11 +64,11 @@ body {
 
 .elgg-menu-site > li > ul {
     display: none;
-    background-color: <?php echo azure(0.85); ?>;
+    background-color: <?php echo azure("0.85"); ?>;
 }
 
 .elgg-menu-site-default > li:hover > a {
-    background-color: <?php echo azure(0.85); ?>;
+    background-color: <?php echo azure("0.85"); ?>;
     color: rgba(0,0,0,0.85);
 }
 
@@ -107,7 +107,7 @@ color: azure;
 
 /* stick to the page, and use that space inside */
 .elgg-page-footer .elgg-menu-footer.elgg-menu-hz {
-    background-color: <?php echo azure(0.85); ?>;
+    background-color: <?php echo azure("0.85"); ?>;
 	margin-top: -5px;
 	padding-top: 4px;
 	padding-left: 3px;
@@ -143,11 +143,11 @@ li.elgg-menu-item-report-this > a {
 	.groups-profile > .elgg-image,
 	.groups-profile .groups-stats,
     .groups-profile-fields .odd {
-background: <?php echo azure(0.85); ?>;
+background: <?php echo azure("0.85"); ?>;
  }
 
 .groups-profile-fields .even {
-background: <?php echo azure(0.45); ?>;
+background: <?php echo azure("0.45"); ?>;
  }
 
 .group-profile-fields code,
@@ -157,11 +157,11 @@ background: transparent;
 
 .elgg-menu-owner-block li a,
 	.elgg-menu-page li a {
-    background-color: <?php echo azure(0.5); ?>;
+    background-color: <?php echo azure("0.5"); ?>;
 }
 .elgg-menu-owner-block li:hover a,
 	.elgg-menu-page li:hover a {
-    background-color: <?php echo azure(1); ?>;
+    background-color: <?php echo azure("1"); ?>;
 color: black;
 	font-weight: bold;
 }
