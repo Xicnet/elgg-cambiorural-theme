@@ -24,7 +24,7 @@ header("Content-type: text/html; charset=UTF-8");
 <div class="elgg-page elgg-page-default">
 
   <div class="elgg-page-header">
-    <h1><?php echo elgg_echo('cambiorural:title'); ?></h1>
+    <h1><?php echo elgg_echo('cambiorural:title', 'es'); ?></h1>
   </div>
 
   <div class="elgg-page-body">
