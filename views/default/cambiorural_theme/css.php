@@ -191,3 +191,13 @@ h1, h2, h3, h4, h5, h6 {
 	background-color: #008775;
 	color: white;
 }
+
+.elgg-heading-site, .elgg-heading-site:hover {
+	font-size: 2em;
+	line-height: 1.4em;
+	color: white;
+	font-style: normal;
+	font-family: sans-serif;
+	text-shadow: 1px 2px 4px #333333;
+	text-decoration: none;
+}

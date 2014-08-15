@@ -1,7 +1,7 @@
 <?php
 
 $spanish = array(
-    'cambiorural:title' => 'Red Cambio Rural',
+    'cambiorural:title' => 'RED CAMBIO RURAL II',
 );
 
 add_translation('es', $spanish);
