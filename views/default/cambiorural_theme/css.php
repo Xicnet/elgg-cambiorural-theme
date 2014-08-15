@@ -20,7 +20,7 @@ body.cambiorural {
 }
 
 body {
-    background-color: #4690D6;
+    background-color: #008775;
 }
 
 .elgg-ajax-loader {
@@ -164,4 +164,30 @@ background: transparent;
     background-color: <?php echo azure("1"); ?>;
 color: black;
 	font-weight: bold;
+}
+
+a {
+	color: #008775;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #008775;
+}
+
+.elgg-pagination a, .elgg-pagination span {
+	color: #008775;
+	border: 1px solid #008775;
+}
+
+.elgg-button-submit {
+	color: white;
+	text-shadow: 1px 1px 0px black;
+	text-decoration: none;
+	border: 1px solid #008775;
+	background: #008775 url(<?php echo elgg_get_site_url(); ?>_graphics/button_graduation.png) repeat-x left 10px;
+}
+
+.elgg-menu-page li.elgg-state-selected > a {
+	background-color: #008775;
+	color: white;
 }
