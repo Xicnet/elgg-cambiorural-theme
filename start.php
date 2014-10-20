@@ -63,3 +63,7 @@ function cambiorural_theme_public_pages($hook, $type, $returnvalue, $params) {
 }
 
 
+function azure($transparency = "1.00") {
+        return "rgba(240, 255, 255, $transparency)";
+}
+

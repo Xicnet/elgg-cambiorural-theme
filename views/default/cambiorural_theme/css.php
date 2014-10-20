@@ -3,10 +3,6 @@
  * Cambio Rural Theme
  */
 
-function azure($transparency = "1.00") {
-	return "rgba(240, 255, 255, $transparency)";
-}
-
 ?>
 /**
  * Cambio Rural Theme
